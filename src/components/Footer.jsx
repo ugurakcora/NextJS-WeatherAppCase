@@ -4,7 +4,7 @@ import { IoMdGlobe } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 p-4 text-white flex items-center justify-between fixed w-full bottom-0">
+    <footer className="bg-[#282b66] p-4 text-white flex items-center justify-between fixed w-full bottom-0">
       <div>
         Uğur Akçora <span className="text-red-500">♥</span>
       </div>
