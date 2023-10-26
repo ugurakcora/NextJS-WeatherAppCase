@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+#svg-turkiye-haritasi-container-tooltip{
+  background-color: #c1c4ff !important;
+  color: #0a0a19 !important;
+  font-weight: 600;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,6 +25,7 @@
 }
 
 body {
+  font-family: 'Playpen Sans', cursive;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
